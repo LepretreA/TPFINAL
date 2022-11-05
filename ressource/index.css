@@ -11508,3 +11508,17 @@ p.EN
 {
   margin-bottom: 10px;
 }
+
+div.tableau
+{
+  margin-bottom: 40px;
+}
+
+table.tab tr td
+{
+  width: 800px;
+  border: 3px solid grey; 
+  font-display: center;
+  padding: 3px;
+  text-align: center;
+}
