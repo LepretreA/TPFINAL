@@ -1,84 +1,94 @@
 <!doctype html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="" />
     <title>Mashle</title>
     <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="index.css" rel="stylesheet" >
-  </head>
-  <body>  
+    <link href="index.css" rel="stylesheet">
+</head>
+
+<body>
     <!-- Responsive navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container px-5">
-          <a class="navbar-brand" href="../index.html">LaProManga</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                  <li class="nav-item"><a class="nav-link" href="CV_FR.html">About me</a></li>
-                  <li class="nav-item"><a class="nav-link" href="formulaire.html">Contact us</a></li>
-              </ul>
-          </div>
-      </div>
+        <div class="container px-5">
+            <a class="navbar-brand" href="../index.html">LaProManga</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="CV_FR.html">About me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="formulaire.html">Contact us</a></li>
+                </ul>
+            </div>
+        </div>
     </nav>
-  <main>
+    <main>
 
-  <!-- Marketing messaging and featurettes
+        <!-- Marketing messaging and featurettes
   ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
+        <!-- Wrap the rest of the page in another container to center all the content. -->
 
-  <div class="container marketing">
-    <form action="" method="post" class="formulaire" role="form">
-            <div class="form-group row mb-2">
-            <label class="col-form-label fw-bold text-md-end col-md-4">Votre nom : </label>
-            <div class="col-md-8">
-                <input class="form-control" type="text" name="nom_contact" id="nom_contact" value="" placeholder="Saisir votre nom">
-            </div>
-        </div>
+        <div class="container marketing">
+            <form action="" method="post" class="formulaire" role="form">
+                <div class="form-group row mb-2">
+                    <label class="col-form-label fw-bold text-md-end col-md-4">Votre nom : </label>
+                    <div class="col-md-8">
+                        <input class="form-control" type="text" name="nom_contact" id="nom_contact" value=""
+                            placeholder="Saisir votre nom">
+                    </div>
+                </div>
 
-        <div class="form-group row mb-2">
-            <label class="col-form-label fw-bold text-md-end col-md-4">Votre prénom : </label>
-            <div class="col-md-8">
-                <input class="form-control" type="text" name="prenom_contact" id="prenom_contact" value="" placeholder="Saisir votre prénom">
-            </div>
-        </div>
-        <div class="form-group row mb-2">
-            <label class="col-form-label fw-bold text-md-end col-md-4">Téléphone : </label>
-            <div class="col-md-8">
-                <input class="form-control" type="text" name="tel_contact" id="tel_contact" value="" placeholder="Saisir votre numéro de téléphone">
-            </div>
-        </div>
+                <div class="form-group row mb-2">
+                    <label class="col-form-label fw-bold text-md-end col-md-4">Votre prénom : </label>
+                    <div class="col-md-8">
+                        <input class="form-control" type="text" name="prenom_contact" id="prenom_contact" value=""
+                            placeholder="Saisir votre prénom">
+                    </div>
+                </div>
+                <div class="form-group row mb-2">
+                    <label class="col-form-label fw-bold text-md-end col-md-4">Téléphone : </label>
+                    <div class="col-md-8">
+                        <input class="form-control" type="text" name="tel_contact" id="tel_contact" value=""
+                            placeholder="Saisir votre numéro de téléphone">
+                    </div>
+                </div>
 
-        <div class="form-group row mb-2">
-            <label class="col-form-label fw-bold text-md-end col-md-4 required">E-mail * : </label>
-            <div class="col-md-8">
-                <input class="form-control" type="text" name="mail_contact" id="mail_contact" value="" required placeholder="Saisir votre email">
-            </div>
-        </div>
+                <div class="form-group row mb-2">
+                    <label class="col-form-label fw-bold text-md-end col-md-4 required">E-mail * : </label>
+                    <div class="col-md-8">
+                        <input class="form-control" type="text" name="mail_contact" id="mail_contact" value="" required
+                            placeholder="Saisir votre email">
+                    </div>
+                </div>
 
-        <div class="form-group row mb-2">
-            <label class="col-form-label fw-bold text-md-end col-md-4 required">Votre message * : </label>
-            <div class="col-md-8">
-                <textarea class="form-control" rows="5" name="question_contact" id="question_contact" required placeholder="Saisir votre message"></textarea>
-            </div>
-        </div>
-        <div class="offset-md-4 col-md-8">
-            <button class="btn btn-primary btn-send-form js-g-recaptcha" type="submit">Envoyer</button>
-        </div>
+                <div class="form-group row mb-2">
+                    <label class="col-form-label fw-bold text-md-end col-md-4 required">Votre message * : </label>
+                    <div class="col-md-8">
+                        <textarea class="form-control" rows="5" name="question_contact" id="question_contact" required
+                            placeholder="Saisir votre message"></textarea>
+                    </div>
+                </div>
+                <div class="offset-md-4 col-md-8">
+                    <button class="btn btn-primary btn-send-form js-g-recaptcha" type="submit">Envoyer</button>
+                </div>
 
-    </form>
-  </div><!-- /.container -->
-
-
-</main>
+            </form>
+        </div><!-- /.container -->
 
 
-        <!-- Bootstrap core JS-->    
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-      
-  </body>
+    </main>
+
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+
+</body>
+
 </html>
